@@ -79,6 +79,41 @@ header {
     font-weight: bold;
 }
 
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+
+    }
+
+    .login-button {
+        display: none;
+
+    }
+
+    .mobile-menu-icon {
+        display: block;
+
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}
+
 /*.header {
     word-spacing: 50px;
     text-decoration: none;
